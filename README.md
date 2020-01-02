@@ -11,4 +11,4 @@ This is a repository for Python works
   According to Douban's anti-spider mechanism, if the robot post 3 comments within 1 minutes, you may get a vertification pic. 
   Since I have not find a good ocr to deal with it, I put about 1.5 minute's waiting time between each comment.
 4. recordToBeRecorded folder
-  contains three spider scripts (for WeiboKingQueenVote result/ WeiboAnnualNominee / Annual Influencer celeberaties), get the voting result and output the record to csv. csvToExcel is a script for converting several csv files to one excel with several sheets
+  contains three spider scripts (for WeiboKingQueenVote result/ WeiboAnnualNominee / Annual Influencers), get the voting result and output the record to csv. csvToExcel is a script for converting several csv files to one excel with several sheets
