@@ -12,3 +12,5 @@ This is a repository for Python works
   Since I have not find a good ocr to deal with it, I put about 1.5 minute's waiting time between each comment.
 4. resultToBeRecorded folder
   contains three spider scripts (for WeiboKingQueenVote result/ WeiboAnnualNominee / Annual Influencers(yingxiangli.py)), get the voting result and output the record to csv. csvToExcel is a script for converting several csv files to one excel with several sheets
+5. snssdk.py 
+  This is a spider script to get the voting result from snssdk's mobile App. Use fiddler to grab the package and find the api for the result page, then parse it and get the result, finally output result to csv
