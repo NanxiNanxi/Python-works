@@ -32,9 +32,9 @@ def getGroupJsonData(groupUrl, header):
     return data
 
 if __name__ == "__main__":
+    postedTopic = None
     while True:
         data = getGroupJsonData(grpurl, getHeaders)
-        postedTopic = None
         i = 0
         while i != 20:
             #get topic number
