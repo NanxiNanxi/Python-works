@@ -1,7 +1,7 @@
 # Python-works
 * This is a repository for Python works
 
-### Sina_vote_Yingxiangli.py   
+### Sina_vote_Yingxiangli.py  
 * This is a spider script for getting result from a Sina page every 30 second (did not count the loading time)
   ---
 ### weibo_vote_king&queen.py  
