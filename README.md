@@ -1,9 +1,6 @@
 # Python-works
 * This is a repository for Python works
 ---
-### Sina_vote_Yingxiangli.py  
-* This is a spider script for getting result from a Sina page every 30 second (did not count the loading time)
-  ---
 ### weibo_vote_king&queen.py  
 * This is a spider script for getting result from a Weibo page every 60 second
 ---
@@ -19,3 +16,6 @@
 ### snssdk.py   
   * This is a spider script to get the voting result from snssdk's mobile App. Use fiddler to grab the package and find the api for the result page, then parse it and get the result, finally output result to csv
 ---
+### Sina_vote_Yingxiangli.py  
+* This is a spider script for getting result from a Sina page every 30 second (did not count the loading time)
+
