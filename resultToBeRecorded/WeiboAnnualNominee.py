@@ -54,7 +54,9 @@ headers = {'User-Agent': random.choice(user_agent)}
 
 def getWeiboVote(header):
     url = "https://huodong.weibo.com/netchina2019/people"
-    r = requests.get(url, header)
+    r = requests.get(url, header)	
+    s = requests.session()
+    s.keep_alive = False
     return r.text
 
 
